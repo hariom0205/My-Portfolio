@@ -73,7 +73,7 @@ export const projects = [
     id: 1,
     title: "Quick Chat",
     description: "A real-time chat app using Socket.io for instant messaging and MongoDB for data storage.",
-    image: "src/assets/quickchat.jpg", // or public folder path
+    image: "/quickchat.jpg", // or public folder path
     tags: ["React", "Node.js", "Socket.io"],
     github: "https://github.com/hariom0205/quick-chat",
     webapp: "https://quick-chat-frontend-e1wd.onrender.com/",
@@ -83,7 +83,7 @@ export const projects = [
     {
   title: "News App",
   description: "A modern news application using React, Bootstrap, and NewsAPI to display real-time news headlines.",
-  image: "src/assets/news-app.jpg", // Ensure the image exists at this path
+  image: "/news-app.jpg", // Ensure the image exists at this path
   tags: ["React", "Bootstrap", "NewsAPI", "Vite"],
   github: "https://github.com/hariom0205/News", // Update if different
    // Update if deployed elsewhere

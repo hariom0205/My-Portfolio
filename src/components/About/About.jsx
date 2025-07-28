@@ -1,6 +1,5 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
-import profileImage from "../../assets/profilepic.jpg"; // Make sure path is correct
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
         {/* Profile Image */}
         <div className="flex justify-center">
           <img
-            src={profileImage}
+            src="/profilepic.jpg"
             alt="Profile"
             className="w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover border-4 border-purple-500 shadow-lg"
           />
